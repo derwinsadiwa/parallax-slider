@@ -1,7 +1,7 @@
 #Parallax Slider</strong>
 [Parallax Slider] (https://github.com/derwinsadiwa/parallaxslider) is just for image/text-sliders, you can use and modify these files on your own projects for FREE!!! :)
 
-For Demo testing - http://derwinsadiwa.github.io/parallaxslider
+Demo: http://derwinsadiwa.github.io/parallaxslider
 
 ### Browser compatibility
 
