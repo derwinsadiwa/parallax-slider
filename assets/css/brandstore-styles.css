@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* ======================================================= Convenience classes ======================================================= */
+
+ .clearer,.clear                    { float: none; clear: both; }
+ .f-right                           { float: right; }
+ .f-left                            { float: left; }
+ .align-center                      { text-align: center; }
+ .align-right                       { text-align: right; }
+ .align-justify 					{ text-align: justify;}
+ .center                            { margin: 0 auto !important; display: block;}
+ .small                             { font-size: 11px; }
+ .big                               { font-size: 18px; }
+ .oh                                { overflow: hidden; }
+ .pr                                { padding-right: 10px; }
+ .pl                                { padding-left: 10px; }
+ .pt                                { padding-top: 10px; }
+ .pb                                { padding-bottom: 10px; }
+ .mr                                { margin-right: 10px !important; }
+ .ml                                { margin-left: 10px !important; }
+ .mt                                { margin-top: 10px !important; }
+ .mb                                { margin-bottom: 10px !important; }
+ .m0                                { margin: 0 !important; }
+ .p0                                { padding: 0; }
+ 
+ .line_dashed,
+ .line_solid 						{ padding: 20px 0 !important;}
+ .line_dashed 						{ border-bottom: 1px dashed #5C5C5C;}
+ .line_solid 						{ border-bottom: 1px solid #5C5C5C;}
+
+ .col2,.col3						{ margin: 10px; }
+ .col2	 							{ width: 360px;}
+ .col3	 							{ width: 233px; float: left;}
+ 
+
+/*
+ * Li List Stlye 
+ */
+ul.normal,ul.disc,
+ul.square,ul.decimal,
+ul.circle                     		{ margin:0; padding:0;}
+ul.normal li                  		{ list-style:none inside !important;}
+ul.disc li                    		{ list-style:disc inside !important;}
+ul.square li                   		{ list-style:square inside !important;}
+ul.decimal li                  		{ list-style:decimal inside !important;}
+ul.cirle li                    		{ list-style:circle inside !important;}
+
+/*
+ * ClearFix
+ */
+.clearfix:after 				    { content: ".";display: block;clear: both;visibility: hidden;	line-height: 0;height: 0;}
+.clearfix 						    { display: inline-block;}
+html[xmlns] .clearfix 			   	{ display: block;}
+* html .clearfix 					{ height: 1%;}
+
+
+body,
+#slideMainCon,
+ul#slider li,
+#slider 							{ margin:0; padding:0; }
+
+body 								{ font-family: 'Montserrat', sans-serif; color:#333333; }
+a   								{ text-decoration: none; color: #333333; }
+
+#slideMainCon 						{ position:relative; width:760px; height:200px; background:#000000; overflow:hidden; margin: 0 auto; }	
+#github-logo 						{ width: 228px; height: 90px; margin: 0 auto; margin-top:50px; }
+ul#slider li						{ position:absolute; float:left; list-style-type:none; }
+.slide_cl 							{ width:760px; height:20px; position:absolute; background-color:#000; color:#fff; padding: 10px; }
+
+#parallax-slider h1,
+#parallax-slider p  				{ text-align: center; }
+#parallax-slider h1 				{ margin: 80px auto 50px; }
+
+#parallax-slider a:hover 			{ text-decoration: underline; }
+
+
+
